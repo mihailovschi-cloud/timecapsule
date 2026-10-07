@@ -85,6 +85,8 @@ $navLink = function (string $key, string $href, string $label) use ($nav): strin
     Served by <code><?= e(gethostname()) ?></code> · DB: <code><?= e(config('DB_HOST', 'localhost')) ?></code> · Files: <code>local disk (<?= e(config('UPLOAD_DIR', 'storage/uploads')) ?>)</code>
   </div>
 </footer>
-
+ <footer style="margin-top: 30px; text-align: center; color: #64748b;">
+        Развёрнуто студентом: Egor Mihailovschi
+    </footer>
 </body>
 </html>
