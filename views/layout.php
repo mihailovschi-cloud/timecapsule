@@ -82,7 +82,7 @@ $navLink = function (string $key, string $href, string $label) use ($nav): strin
 <footer class="site-footer">
   <div class="container">
     <?php /* Shows which machine answered, which database host it uses and where files are stored. */ ?>
-    Served by <code><?= e(gethostname()) ?></code> · DB: <code><?= e(config('DB_HOST', 'localhost')) ?></code> · Files: <code>local disk (<?= e(config('UPLOAD_DIR', 'storage/uploads')) ?>)</code>
+    LR3 . Served by <code><?= e(gethostname()) ?></code> · DB: <code><?= e(config('DB_HOST', 'localhost')) ?></code> · Files: <code>local disk (<?= e(config('UPLOAD_DIR', 'storage/uploads')) ?>)</code>
   </div>
 </footer>
  <footer style="margin-top: 30px; text-align: center; color: #64748b;">
